@@ -1,0 +1,199 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.karthik{
+    height: 600px;
+    width:100%;
+    background-color: black;
+    display: grid;
+    justify-items: center;
+}
+
+.image{
+    height: 200px;
+    width: 200px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border-color: wheat;
+    border-style: solid;
+}
+.name{
+    text-align: center;
+    color: whitesmoke;
+    text-transform: capitalize;
+    text-decoration: solid;
+    font-style: oblique;
+
+}
+.varsi{
+    text-align: center;
+    color: whitesmoke;
+    text-transform: capitalize;
+    text-decoration: solid;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.uday{
+     background-color: bisque;
+}
+.about{
+    text-align: center;
+    text-transform: capitalize;
+    color: black;
+    font-size: 30px;
+    background-color: antiquewhite;
+}
+.paragraph{
+        text-align: center;
+        text-transform: capitalize;
+        color: black;
+        font-size: 18px;
+        font-style: inherit;   
+    }
+    .icon_bar{
+        width: 70%;
+        height: 20vh;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+
+    }
+
+    .icon_bar a{
+        color: rgba(191, 83, 83, 0.616);
+        text-decoration: none;
+        font-size: 3em;
+        transition: all 0.5s linear;
+    }
+
+    .icon_bar a:hover{
+        scale: 1.03;
+        color: rgb(178, 30, 114);
+    }
+    .mahesh{
+        height: 200px;
+        width: 100;
+        display: flex;
+        margin-top: 10px;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+     
+   .icons{
+            height: 120px;
+            width: 350px;
+            margin: 0 20px;
+            box-shadow: 0 10px 60px gray;
+            background-color: white;
+            border-radius: 10px;
+            display: grid;
+            place-content: center;
+        }
+        .icons a{
+            width: 250px;
+            height: 100px;
+            /* background-color: rgb(13, 58, 98); */
+            font-size: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-direction: column;
+            text-decoration: none;
+        }
+
+        .icons a i{
+            text-align: center;
+        }
+
+
+        .size{
+            font-size: 20px;
+            margin: 0;
+            color: black;
+        }
+        .myskills{
+            font-size: 30px;
+            text-transform: capitalize;
+            margin-left: 50px;
+            color: black;
+            border-color: aqua;
+            margin-top: 50px;
+            border-color: 3px,salmon;
+        }
+        .myskills1{
+            height: 30px;
+            width: 100%;
+            margin-top:-50px;
+            
+        }
+        .myskills2{
+                text-transform: capitalize;
+                font-size: 15px;
+                text-decoration: solid;
+                font-style: initial;
+                margin-left: 50px;
+        }
+
+        .work{
+            height: 30px;
+            width: 100%;
+            margin-top:-50px;
+                    
+            
+        }
+        .venky{
+                display: grid;
+                width: 90%;
+                gap: 20px;
+        }   
+             .lines{
+            height: 150px;
+            width: 100%;
+            background-color: whitesmoke;
+            box-shadow: 10 10 40px;
+            padding-left: 70px;
+            padding-top: 10px;
+            padding-right: 100px;
+
+        }
+        .venky1{
+                font-size: 15px;
+                text-transform: capitalize;
+                text-decoration: none;
+
+        }
+        .leaf{
+                display: grid;
+                width: 100%;
+                gap: 20px;   
+        }
+         .leaf1{
+                height: 150px;
+                width: 90%;
+                background-color:whitesmoke;
+                box-shadow: 0,0,40px;
+                border-radius: 10px;
+                padding-left: 30px;
+
+        }
+        .leaf2{
+                font-size: 13px;
+        }
+        .contact{
+                height: 100px;
+                width: 100%;
+                display: grid;
+                align-content: center;
+                padding-left: 500px;
+                background-color: gainsboro;
+        }
+        
